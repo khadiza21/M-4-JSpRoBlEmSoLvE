@@ -100,8 +100,43 @@ console.log(typeof date);
 
 
 /*________________________________________________start__________________________________________________*/
-// 
+// type conversion method
+// number method 
+console.log(Number('\n' + "3.23") + '\n');
+console.log(Number(" ") + '\n');
+console.log(Number("") + '\n');
+console.log(Number("35 23") + '\n');
+console.log(parseFloat(2332) + '\n');
+console.log(parseInt(34.343) + '\n');
+
+// convert variable (string to number) with unary operator 
+
+var y1= "35";
+var x1=+y1;
+console.log(typeof x1 + '\n');
+
+var y2= "TaN";
+var x2=+y2;
+console.log(typeof x2 + '\n');
+console.log( x2 + '\n');
+
+
+// converting numbers to strings
+console.log(typeof (String(123 +34))+ '\n');
+console.log(String(123 +34)+ '\n');
+console.log(typeof (String(123))+ '\n');
+console.log(String(123)+ '\n');
+
+console.log((12387).toString());
+console.log(typeof (12387).toString());
+
+// tofixed - after used it value convert on string . so, should convert it
+
+
+
 /*________________________________________________end____________________________________________________*/
+
+
 
 
 
@@ -111,21 +146,13 @@ console.log(typeof date);
 //2
 /*________________________________________________end____________________________________________________*/
 
-
-
-
 /*________________________________________________start__________________________________________________*/
 //3
 /*________________________________________________end____________________________________________________*/
 
-
-
 /*________________________________________________start__________________________________________________*/
 // 4
 /*________________________________________________end____________________________________________________*/
-
-
-
 
 /*________________________________________________start__________________________________________________*/
 // 5
