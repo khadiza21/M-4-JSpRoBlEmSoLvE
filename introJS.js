@@ -88,8 +88,9 @@ console.log(typeof "wewewe" + '\n');
 console.log(typeof false + '\n');
 console.log(typeof ddwewe34e33efe54 + '\n');
 var date=  Date()  ;
+var dateO = new Date() 
 console.log(Date() + '\n');
-console.log(typeof date);
+console.log(typeof dateO);
 // typeof 42n === 'bigint';
 
 
