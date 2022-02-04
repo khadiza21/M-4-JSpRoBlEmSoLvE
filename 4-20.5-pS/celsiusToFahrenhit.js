@@ -4,8 +4,8 @@
 // cels = (fahr - 32.0) * 5.0/9.0; //Fahr to cels
 // fahr = (cels * 9.0/5.0) + 32.0; //Cels to fahr
 
-function celciusToFahrenhit(celcius) {
-  let fahrenhit = (celcius * 9.0) / 5.0 + 32.0;
+function celsiusToFahrenhit(celsius) {
+  let fahrenhit = (celsius * 9.0) / 5.0 + 32.0;
   return fahrenhit;
 }
-console.log("Fahrenhit Value is ", celciusToFahrenhit(234));
+console.log("Fahrenhit Value is ", celsiusToFahrenhit(234));
