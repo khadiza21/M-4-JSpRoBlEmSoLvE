@@ -1,13 +1,11 @@
 let a = 12;
-let b =23;
-console.log(a,b);
+let b = 23;
+console.log(a, b);
 let temp;
 
-// swaping 
+// swaping
 temp = a;
 a = b;
-b =temp;
+b = temp;
 
-console.log(a,b);
-
-
+console.log(a, b);
