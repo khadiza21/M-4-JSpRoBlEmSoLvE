@@ -2,12 +2,12 @@
 function isAgeEvenOdd(age) {
   if (age > 0) {
     if (age % 2 != 0) {
-      return 0;
+      return false;
     } else if (age % 2 == 0) {
-      return 1;
+      return true;
     }
   } else {
     return "Give Valid Age.";
   }
 }
-console.log(isAgeEvenOdd(-34));
+console.log(isAgeEvenOdd(31));
