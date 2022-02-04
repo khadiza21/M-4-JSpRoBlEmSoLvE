@@ -3,4 +3,4 @@ function hourToMinute(hour) {
   let minute = hour * 60;
   return minute;
 }
-console.log("MINUTE: ", hourToMinute(3));
+console.log("MINUTES: ", hourToMinute(3));
