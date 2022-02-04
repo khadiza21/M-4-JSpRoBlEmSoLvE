@@ -1,17 +1,28 @@
-
-
-/* ক্লাস সেভের এর ফাইনাল এক্সাম এ তুমি ফার্স্ট হয়েছো। তোমার বন্ধু আলিয়া, ডালিয়া, সালিয়া, মালিয়া, লিলিয়া আর জ্বালাইয়া - তাদের grade তুমি জানো না। তবে তাদের নম্বর জানো. আলিয়া 95 পেয়েছে, ডালিয়া 66 পেয়েছে, সালিয়া 80 পেয়েছে, মালিয়া পেয়েছে 59, লিলিয়া পেয়েছে 47, জ্বালাইয়া পেয়েছে 77। তুমি JS code দিয়ে তাদের grade বের করে দিতে পারবে?
-
-১) যারা ৫০ এর নিচে পেয়েছে, তাদের grade F.
-
-২) যারা ৫০ বা তার উপরে পেয়েছে, অথবা ৬০ এর নিচে পেয়েছে, তাদের grade D.
-
-৩) যারা ৬০ বা তার উপরে পেয়েছে, অথবা ৭০ এর নিচে পেয়েছে, তাদের grade C.
-
-৪) যারা ৭০ বা তার উপরে পেয়েছে, অথবা ৮০ এর নিচে পেয়েছে, তাদের grade B.
-
-৫) যারা ৮০ বা তার উপরে পেয়েছে, অথবা ৯০ এর নিচে পেয়েছে, তাদের grade A.
-
-৬) যারা ৯০ বা তার উপরে পেয়েছে, তাদের grade A+.
-
-  */
+//grade calculation
+function gradeCalculation(marks) {
+  if (marks >= 0 && marks < 50) {
+    return "Grade F";
+  } else if (marks >= 50 && marks < 60) {
+    return "Grade D";
+  } else if (marks >= 60 && marks < 70) {
+    return "Grade C";
+  } else if (marks >= 70 && marks < 80) {
+    return "Grade B";
+  } else if (marks >= 80 && marks < 90) {
+    return "Grade A";
+  } else if (marks >= 90 && marks < 100) {
+    return "Grade A+";
+  } else {
+   return "Enter valid marks!";
+  }
+}
+console.log(" আলি পেয়েছে 195 | আলির  Grade : ", gradeCalculation(195));
+console.log(" আলিয়া পেয়েছে 95 | আলিয়ার  Grade : ", gradeCalculation(95));
+console.log(" ডালিয়া পেয়েছে 66 | ডালিয়ার  Grade : ", gradeCalculation(66));
+console.log(" সালিয়া পেয়েছে 80 | সালিয়ার  Grade : ", gradeCalculation(80));
+console.log(" মালিয়া পেয়েছে 59 | মালিয়ার  Grade : ", gradeCalculation(59));
+console.log(" লিলিয়া পেয়েছে 47 | লিলিয়ার  Grade : ", gradeCalculation(47));
+console.log(
+  " জ্বালাইয়া পেয়েছে 77 | জ্বালাইয়ার  Grade : ",
+  gradeCalculation(77)
+);
