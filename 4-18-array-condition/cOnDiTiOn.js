@@ -18,3 +18,29 @@ if (num2 == num1 || (num1 > 35 == 0 && num1 < 100)) {
 }
 
 //multistage condition
+i = 7;
+if (i < 15) {
+  console.log(i, " is less than 15");
+} else if (i < 30) {
+  console.log(i, " is less than 30");
+} else if (i < 45) {
+  console.log(i, " is less than 45");
+} else if (i < 50) {
+  console.log(i, " is less than 50");
+} else if (i < 65) {
+  console.log(i, " is less than 65");
+} else {
+  console.log(i, " is greater than 65");
+}
+
+//nested loop
+n = 0;
+if (n <= 100) {
+  if (n <= 50) {
+    console.log(n, " Less than 51");
+  } else {
+    console.log(n, " Less than 101");
+  }
+} else {
+  console.log(n, " Greater than 100");
+}
