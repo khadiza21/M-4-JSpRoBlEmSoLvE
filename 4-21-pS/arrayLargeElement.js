@@ -6,4 +6,4 @@ for (let i = 0; i < arr.length; i++) {
     large = arr[i];
   }
 }
-console.log("Large Number of Array ", large);
+console.log("Largest Number of Array ", large);
