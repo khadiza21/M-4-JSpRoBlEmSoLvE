@@ -22,7 +22,7 @@ console.log(arr3);
 console.log(arr4[3]);
 
 //push/add element in array last position
-arr4.push('V');
+arr4.push("V");
 console.log(arr4);
 
 //pop/remove element in array last position
@@ -30,7 +30,7 @@ arr4.pop();
 console.log(arr4);
 
 //push/add element in array first position
-arr4.unshift('Z');
+arr4.unshift("Z");
 console.log(arr4);
 
 //pop/remove element in array first position
