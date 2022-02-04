@@ -1,3 +1,4 @@
+//for loop
 //  print 1 to 10 natural numbers
 console.log("1 to 10 Natural Numbers");
 for (let i = 1; i <= 10; i++) {
