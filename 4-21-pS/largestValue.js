@@ -8,4 +8,4 @@ function findLargeNumbers(num1, num2, num3) {
   }
 }
 
-findLargeNumbers(4, 8, 12);
+findLargeNumbers(24, 18, 12);
