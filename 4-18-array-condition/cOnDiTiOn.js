@@ -1,5 +1,3 @@
-//  if(var == ture || var3>34), multistage and nested condition,
-
 // comparisom operator: >, <, ==, !=, <=, >=
 var num1 = 34;
 var num2 = 98;
