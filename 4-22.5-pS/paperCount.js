@@ -27,4 +27,4 @@ function paperRequirements(
     thirdBookQuantity * 300;
   return totalBookPages;
 }
-paperRequirements(10, 12, 30);
+console.log(paperRequirements(10, 12, 30));
