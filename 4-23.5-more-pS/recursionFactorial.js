@@ -13,4 +13,3 @@ function factorial(number) {
   return number * factorial(--number);
 }
 console.log(factorial(4));
-
